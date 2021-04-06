@@ -8,27 +8,29 @@ the repository owner.
 
 The dataset columns are:
 
-- _id	-
-- pos_processed_news -	
-- news_table_id	-
-- id -	
-- arquivo_hash -	
-- news_link	-
-- news_site_date -	
-- news_site_title	-
-- news_site_authors -	
-- news_site_text -	
-- search_newspaper -	
-- title_len	-
-- arquivo_date -	
-- feminicidio -	
-- violencia_domestica -	
-- violencia_sexual -	
-- assedio_sexual -	
-- mulheres_assassinadas -	
-- search_keywords	-
-- title_countains_keyword	-
-- feminicidio_case -
+- _id	- automatic id given by pandas dataframe
+- pos_processed_news - id in the pos_processed_news mongodb table
+- news_table_id	- id in the news_table mongodb table
+- id - id in the keywords_news mongodb table
+- arquivo_hash -	Arquivo.pt retrieved hash
+- news_link	- Arquivo.pt retrieved page link
+- news_site_date - News site retrieved date 	
+- news_site_title	- News site retrieved news title 	
+- news_site_authors -	News site retrieved authors 	
+- news_site_text - News site retrieved news text 		
+- search_newspaper - newspaper that published the news	
+- title_len	- number of words in the title
+- arquivo_date - Arquivo.pt retrieved date
+- feminicidio -	boolean (true/false) indicating if news title or text contains at least one feminicide related word
+- violencia_domestica -	boolean (true/false) indicating if news title or text contains at least one domestic violence related word
+- violencia_sexual - boolean (true/false) indicating if news title or text contains at least one sexual violence related word
+- assedio_sexual - boolean (true/false) indicating if news title or text contains at least one sexual harassment related word
+- mulheres_assassinadas -	boolean (true/false) indicating if news title or text contains at least one murdered women related word
+- search_keywords	- boolean (true/false) indicating if keywords were confirmed in the news
+- title_countains_keyword	- boolean (true/false) indicating if news contain at least one keyword
+- feminicidio_case - 0 indicates that news is not feminicide case, 1 indicated that it is feminicide case. This value was manually annotated.
+
+* The keyword list corresponding to feminicidio, violencia_domestica, violencia_sexual, assedio_sexual, mulheres_assassinadas can be found in this [file](https://github.com/paulafortuna/feminicidioAvista/blob/main/crawling/Variables.py).
 
 
 The dataset newspapers are:
