@@ -8,8 +8,27 @@ the repository owner.
 
 The dataset columns are:
 
-
-
+- _id	-
+- pos_processed_news -	
+- news_table_id	-
+- id -	
+- arquivo_hash -	
+- news_link	-
+- news_site_date -	
+- news_site_title	-
+- news_site_authors -	
+- news_site_text -	
+- search_newspaper -	
+- title_len	-
+- arquivo_date -	
+- feminicidio -	
+- violencia_domestica -	
+- violencia_sexual -	
+- assedio_sexual -	
+- mulheres_assassinadas -	
+- search_keywords	-
+- title_countains_keyword	-
+- feminicidio_case -
 
 
 The dataset newspapers are:
@@ -21,6 +40,7 @@ The dataset newspapers are:
 - Sol - http://www.sol.pt/
 - Visão - https://visao.sapo.pt/
 - Jornal de Notĩcias - https://www.jn.pt/
+
 
 The used keywords for retrieving pages from Arquivo.pt are:
 
