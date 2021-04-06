@@ -38,8 +38,8 @@ The dataset newspapers are:
 - Expresso - http://expresso.pt/
 - Diario de Notícias - http://www.dn.pt/
 - Correio da Manhã - http://www.cmjornal.pt/
-- Sol (old) - http://sol.sapo.pt/ 
-- Sol - http://www.sol.pt/
+- Sol (old)- http://www.sol.pt/
+- Sol - http://sol.sapo.pt/ 
 - Visão - https://visao.sapo.pt/
 - Jornal de Notĩcias - https://www.jn.pt/
 
